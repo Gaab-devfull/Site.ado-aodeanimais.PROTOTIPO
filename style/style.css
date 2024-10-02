@@ -1,0 +1,104 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f2f2; /* Cinza claro para o fundo */
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    padding: 0.1rem 0;
+    text-align: center;
+}
+
+.img h1 img{
+    width: 170px;
+    height: 150px;
+}
+
+.img h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 2rem;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:larger
+}
+
+/* Estilos das seções */
+section {
+    max-width: 800px; /* Largura máxima do conteúdo */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h2 {
+    color: #4CAF50; /* Verde para os títulos */
+}
+
+/* Estilos do formulário */
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Inclui padding e border no tamanho total */
+}
+
+form button {
+    background-color: #FFC107; /* Amarelo */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #FFA000; /* Amarelo mais escuro ao passar o mouse */
+}
+
+/* Estilo para os cards de animais (ainda a serem implementados) */
+.animais .card {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Para conter a imagem dentro do card */
+}
+
+.animais img {
+    /* Estilos para imagens dos animais (ajuste conforme necessário) */
+    max-width: 200px;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+}
+
+footer {
+    text-align: center;
+}
